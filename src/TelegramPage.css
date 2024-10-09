@@ -1,0 +1,38 @@
+.header {
+  padding: 10px;
+}
+.avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 61px;
+}
+h1 {
+  font-size: 30px;
+  margin-top: 10px;
+  font-weight: 900;
+}
+.lead {
+  max-width: 340px;
+  margin: 0 auto 20px;
+  font-size: 19px;
+  font-weight: 500;
+}
+.jumbotron {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 10px;
+  background: #d7d7d7;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.telegram-page {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
