@@ -24,10 +24,16 @@ const TelegramPage = () => {
       <section className="jumbotron text-center">
         <div className="container">
           <img className="avatar" src="./piratecpa.png" alt="Avatar" />
-          <h1 className="jumbotron-heading">Well Group</h1>
-          <p className="lead text-muted">Быстрый заработок с командой профессионалов в iGambling индустрии 💵</p>
+          <h1 className="jumbotron-heading">3000 грн за 30 минут</h1>
+          <p className="lead text-muted">
+            {`📩 Зв'язок зі мною - `}
+            <a href="https://t.me/+xxClem-EFV9lYjU6" style={{ color: 'royalblue', display: 'inline' }}>
+              @semartinez
+            </a>
+            {`\nЗароби зараз - від 3 до 10 тис гривень`}
+          </p>
           <div className="buttons">
-            <a href="tg://join?invite=wiU9D30Y1GYzNzI6" className="btn btn-primary my-2 ml-2">
+            <a href="https://t.me/+xxClem-EFV9lYjU6" className="btn btn-primary my-2 ml-2">
               Открыть в Telegram
             </a>
             <a
